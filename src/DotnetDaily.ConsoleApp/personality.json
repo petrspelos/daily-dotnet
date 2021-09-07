@@ -1,4 +1,16 @@
 {
+    "preMessageRemarks": [
+        "",
+        "Sometimes I wish there was another bot I could talk to. :worried:",
+        "This one is *actually* my favorite article of all times. :exploding_head:",
+        "You guys actually read the articles I send, right? :aqua-surprised: Right?",
+        ":whitewing2: *YOU KNOW WHAT TIME IT IS* :whitewing1:",
+        ":dotnet: Everyone surely knows this one.",
+        ":eyes: Oh yeah, the article... almost forgot... here it is.",
+        "Damn, I didn't want to boot this morning. :sleeping:",
+        "Hey, let's actually appreciate this neat thing we call C#. :csharp:",
+        ":tada: *Shoutout to all the open-source developers out there* :tada:"
+    ],
     "greetings": [
         "Hello",
         "Hi",
@@ -9,7 +21,9 @@
         "Heya",
         "Heyyy",
         ":wave:",
-        ":blob-wave:"
+        ":blob-wave:",
+        "Salutation",
+        "Good morning"
     ],
     "nicknames": [
         "everyone",
@@ -20,6 +34,51 @@
         ".NET fans",
         "C# wizards",
         "3PillarGlobal",
-        "@Peťa and others"
-    ]
+        "@Peťa and others",
+        "people",
+        "team",
+        "community",
+        "Slackers",
+        ":yush:"
+    ],
+    "goodbyes": {
+        "Monday": [
+            "Hang in there, I'll message you all tomorrow. :fox_hyper:",
+            "I know it's Monday, but don't hate on me, I don't pick what day it is. :furry-dance-rainbow:",
+            "I'll see you guys tomorrow!",
+            "Have a productive start of the week!",
+            "Be kind to each other. :hearts:",
+            "And hey, it's you've got this. I believe in you. :smiling_face_with_3_hearts:",
+            "Remember to smile. :allo-happy: I'll be here tomorrow."
+        ],
+        "Tuesday": [
+            "I'll see you guys tomorrow!",
+            "Guys, I'll be working from home tomorrow. But I'll be sure to send you your MSDN fix. :dancing_pudding_2:",
+            "Be kind to each other. :hearts:",
+            "Today's .NET DONUT! HYPE :donut_parrot: :doughnut:"
+        ],
+        "Wednesday": [
+            "I'll see you guys tomorrow!",
+            "Have a great Wednesday, my dudes. :frog:",
+            "Remember to smile. :allo-happy: I'll be here tomorrow.",
+            "Be kind to each other. :hearts:",
+            "Do something fun today. :wink: See ya tomorrow.",
+            "Shoutout to people reacting to my daily message. You all rock! :hearts: See ya tomorrow."
+        ],
+        "Thursday": [
+            "I'll see you guys tomorrow!",
+            "Heads up, it's almost Friday! :kendal:",
+            "Good luck FloLogic team with your weekly call. :sweat_drops: :peter-shy:",
+            "Remember to smile. :allo-happy: I'll be here tomorrow.",
+            "Be kind to each other. :hearts:"
+        ],
+        "Friday": [
+            "I'll see you guys next week!",
+            "Time for me to skedaddle home. I'll be enjoying a nice time at the Memory Pool with the other apps. :duckwalk:",
+            "Enjoy your weekend. Here's a foxo: :fox_face:",
+            "Enjoy your weekend. Here's a doggo: :dog:",
+            "Enjoy your weekend. Here's a rabitto: :rabbit:",
+            "Remember to smile. :allo-happy: I'll be here next week."
+        ]
+    }
 }

@@ -78,16 +78,7 @@ string ConstructMessageOfTheDay(string msdnUrl)
 {
     var pers = ReadRequiredJson<Personality>(personalityFilePath);
 
-    var message = $"*{pers.Greetings.Random(rng)} {pers.Nicknames.Random(rng)}!*\n\n:duckwalk: It's {DateTime.Today.DayOfWeek} and today's MSDN article of the day is:\n\n :tada: {msdnUrl}  :tada:\n\nHope you learned something new. :wobble:";
-
-    if(DateTime.Today.DayOfWeek == DayOfWeek.Friday)
-    {
-        message += "\n\nHave a great weekend, everyone. :hearts: :relaxed:";
-    }
-    else
-    {
-        message += "\n\nI'll see you guys tomorrow. :relaxed:";
-    }
+    var message = $"*{pers.Greetings.Random(rng)} {pers.Nicknames.Random(rng)}!*\n\n It's {DateTime.Today.DayOfWeek}\n\n{pers.PreMessageRemarks.Random(rng)}\n\n :link: {msdnUrl}\n\n{pers.Goodbyes[DateTime.Now.DayOfWeek].Random(rng)}";
 
     return message;
 }
