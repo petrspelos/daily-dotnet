@@ -72,7 +72,7 @@ static T ReadRequiredJson<T>(string filePath)
     return result;
 }
 
-static bool IsNotCompilerErrorPage(string p) => !p.Contains("/misc/cs") && !p.Contains("compiler-messages");
+static bool IsNotCompilerErrorPage(string p) => !p.ToLower().Contains("/misc/cs") && !p.ToLower().Contains("compiler-messages");
 
 string ConstructMessageOfTheDay(string msdnUrl)
 {
